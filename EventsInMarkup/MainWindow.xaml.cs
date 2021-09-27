@@ -24,5 +24,16 @@ namespace EventsInMarkup
         {
             InitializeComponent();
         }
+        // Когда курсор попадает в область прямоугольника, заполняем прямоугольник желтым цветом.
+        private void Rectangle_MouseEnter(object sender, MouseEventArgs e)
+        {
+            (sender as Rectangle).Fill = Brushes.Yellow;
+        }
+        // При выходе курсора за пределы прямоугольника устанавливаем зеленый цвет.
+        private void Rectangle_MouseLeave(object sender, MouseEventArgs e)
+        {
+            (sender as Rectangle).Fill = Brushes.Green;
+        }
+
     }
 }
