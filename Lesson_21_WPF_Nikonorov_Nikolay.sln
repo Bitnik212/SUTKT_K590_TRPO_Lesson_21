@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFApplication", "WPFApplication\WPFApplication.csproj", "{888C555F-5632-475B-9DF8-E4132CE8F9EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_03", "Exercise_03\Exercise_03.csproj", "{E653A543-8E87-433A-BC31-E249669050FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{888C555F-5632-475B-9DF8-E4132CE8F9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{888C555F-5632-475B-9DF8-E4132CE8F9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{888C555F-5632-475B-9DF8-E4132CE8F9EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E653A543-8E87-433A-BC31-E249669050FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E653A543-8E87-433A-BC31-E249669050FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E653A543-8E87-433A-BC31-E249669050FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E653A543-8E87-433A-BC31-E249669050FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
