@@ -24,5 +24,18 @@ namespace WPFApplication
         {
             InitializeComponent();
         }
+
+        private void submitButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (textbox_input.Text == string.Empty)
+            {
+                MessageBox.Show("Вы не ввели свое имя!");
+            }
+            else
+            {
+                MessageBox.Show("Привет, " + textbox_input.Text);
+            }
+
+        }
     }
 }
