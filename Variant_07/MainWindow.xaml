@@ -7,10 +7,42 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <TextBox HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="505" Height="34"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" Height="27" Width="94"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,81,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="37" Width="505"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,226,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="98" Width="505"/>
+        <TextBox 
+            x:Name="number_textBox"
+            HorizontalAlignment="Center" 
+            FontSize="20px"
+            Margin="0,10,0,0" 
+            TextWrapping="Wrap" 
+            Text="Введите число или нажмите выполнить" 
+            VerticalAlignment="Top" 
+            Width="505" 
+            Height="34"/>
+        <Button
+            Click="SubmitOnClick"
+            FontSize="20px"
+            Content="выполнить" 
+            HorizontalAlignment="Left" 
+            Margin="10,49,0,0" 
+            VerticalAlignment="Top" 
+            Height="50" 
+            Width="180"/>
+        <TextBlock
+            x:Name="result_textBlock"
+            HorizontalAlignment="Center" 
+            FontSize="20px"
+            Margin="0,120,0,0" 
+            TextWrapping="Wrap" 
+            Text="Результат программы" 
+            VerticalAlignment="Top" 
+            Height="100" Width="505"/>
+        <TextBlock 
+            HorizontalAlignment="Center" 
+            Margin="0,226,0,0" 
+            TextWrapping="Wrap" 
+            FontSize="20px"
+            Text="Вариант 7. Сгенерируйте случайным образом двузначное число. Найдите сумму и произведение его цифр. Результат выведите на экран." 
+            VerticalAlignment="Top" 
+            Height="98" Width="505"/>
 
     </Grid>
 </Window>
